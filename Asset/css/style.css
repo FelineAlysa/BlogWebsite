@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Poppins", sans-serif;
+}
+.jumbotron-img {
+  width: 70%;
+}
+
+.box {
+  width: 300px;
+  height: 270px;
+  overflow: hidden;
+}
+
+.box img {
+  height: 200px;
+  width: 300px;
+  object-fit: cover;
+}
+.box .text {
+  height: 70px;
+}
+.carousel img {
+  max-height: 800px;
+  object-fit: cover;
+}
+.category-carousel {
+  width: 100px;
+  height: 100px;
+}
+
+.icon {
+  display: inline-block;
+  width: 70px;
+  height: 70px;
+  /* filter: brightness(0) invert(1); */
+  background-repeat: no-repeat;
+}
+
+.icon-food {
+  background-image: url(../Image/food-svgrepo-com.svg);
+}
+.icon-travel {
+  background-image: url(../Image/travel-svgrepo-com.svg);
+}
+.icon-drink {
+  background-image: url(../Image/drink-svgrepo-com.svg);
+}
+.icon-game {
+  background-image: url(../Image/game-svgrepo-com.svg);
+}
+footer ul li a {
+  color: white;
+  text-decoration: none;
+}

@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./Asset/css/bookstrapCustom.css" />
+    <link rel="stylesheet" href="./Asset/css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css"
+    />
+    <title>My Landing Page</title>
+  </head>
+  <body
+    data-bs-spy="scroll"
+    data-bs-target="navbarApp"
+    data-bs-offset="1"
+    class="scrollspy-example"
+  >
+    <nav
+      class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary shadow"
+      id="navbarApp"
+    >
+      <div class="container">
+        <a class="navbar-brand" href="#"><b>My Landing Page</b></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#card"
+                >Portofolio</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact Me</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#card">Blog</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <section id="jumbotron" class="py-5 bg-primary">
+      <div class="container py-5 bg-primary">
+        <div class="row align-items-center">
+          <div class="col-12 col-lg-6 text-white">
+            <h2>Let's See My Landing Page</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo
+              libero exercitationem voluptates vitae eius laborum, ex tempore,
+              maiores suscipit error et esse iure velit? Libero facere
+              reprehenderit possimus saepe error?
+            </p>
+            <button type="button" class="btn btn-success">Check It Out</button>
+          </div>
+          <div class="col-6 justify-content-center d-none d-lg-flex">
+            <img
+              class="jumbotron-img"
+              src="./Asset/Image/undraw_static_website_re_x70h.svg"
+              alt="Static Html"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <img src="./Asset/Image/wave.svg" alt="wave" />
+
+    <section id="card">
+      <div class="container py-5">
+        <h2 class="text-center mb-5">Portofolio</h2>
+        <div class="d-flex flex-wrap justify-content-evenly">
+          <div class="box border rounded d-flex flex-column">
+            <img
+              src="./Asset/Image/WebApplication.jpeg"
+              alt="Web Application"
+            />
+            <div class="text fs-5 p-3">Web Application</div>
+          </div>
+
+          <div class="box d-flex flex-wrap border rounded">
+            <div>
+              <img
+                src="./Asset/Image/MobileApplication.jpg"
+                alt="Mobile Application"
+              />
+              <div class="text fs-5 p-3">Mobile Application</div>
+            </div>
+          </div>
+
+          <div class="box d-flex flex-wrap border rounded">
+            <div>
+              <img
+                src="./Asset/Image/BackendApplication.png"
+                alt="Backend Application"
+              />
+              <div class="text fs-5 p-3">Backend Application</div>
+            </div>
+          </div>
+
+          <div class="box d-flex flex-wrap border rounded">
+            <div>
+              <img src="./Asset/Image/DevOps.jpg" alt="DevOps" />
+              <div class="text fs-5 p-3">Dev Ops</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="bg-primary py-5 mt-5">
+      <div class="container bg-primary py-5">
+        <h2 class="text-white text-center py-4">About</h2>
+        <div class="row align-items-center">
+          <div class="col-6 text-white">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex
+              provident at tempore saepe culpa aspernatur perspiciatis
+              doloremque possimus, officia dolor nulla odio repellendus
+              quibusdam iste sint voluptate quo. Odit, possimus.
+            </p>
+          </div>
+          <div class="col-6 text-white">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique
+              veniam dolorum minus? Harum voluptatibus provident molestiae cum
+              saepe fuga architecto, voluptate quas aliquid, accusantium est ea
+              illo ab debitis ullam!
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col text-center">
+            <button type="button" class="btn btn-outline-light">
+              More Info
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="py-5">
+      <div class="container">
+        <h2 class="text-center mb-5">Contact</h2>
+        <div class="row justify-content-center">
+          <div class="col-12 col-md-8">
+            <form>
+              <div class="mb-3">
+                <label for="emailAddressInput" class="form-label"
+                  >Email address</label
+                >
+                <input
+                  type="email"
+                  class="form-control"
+                  id="emailAddressInput"
+                />
+              </div>
+              <div class="mb-3">
+                <label for="fullNameInput" class="form-label">Full Name</label>
+                <input type="text" class="form-control" id="fullNameInput" />
+              </div>
+
+              <div class="d-grid">
+                <button class="btn btn-primary" type="button">Submit</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="bg-primary py-5 mt-5">
+      <div class="container text-white">
+        <div class="row">
+          <div class="d-none d-md-block col-2">
+            <h5>Section</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item">
+                <a class="nav-link p-0 text-white" aria-current="page" href="#"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link p-0 text-white" aria-current="page" href="#"
+                  >Portofolio</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link p-0 text-white" aria-current="page" href="#"
+                  >About</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link p-0 text-white" aria-current="page" href="#"
+                  >Contact Me</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <div class="d-none d-md-block col-2">
+            <h5>Section</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item">
+                <a class="nav-link p-0 text-white" aria-current="page" href="#"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link p-0 text-white" aria-current="page" href="#"
+                  >Portofolio</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link p-0 text-white" aria-current="page" href="#"
+                  >About</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link p-0 text-white" aria-current="page" href="#"
+                  >Contact Me</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <div class="d-none d-sm-block col-2">
+            <h5>Section</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item">
+                <a class="nav-link p-0 text-white" aria-current="page" href="#"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link p-0 text-white" aria-current="page" href="#"
+                  >Portofolio</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link p-0 text-white" aria-current="page" href="#"
+                  >About</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link p-0 text-white" aria-current="page" href="#"
+                  >Contact Me</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-12 col-sm-7 col-md-4 offset-md-1 offset-sm-2">
+            <h5>Subsribe to our newsletter</h5>
+            <p>Monthly digest of whats new and exciting from us.</p>
+
+            <form>
+              <div class="d-flex gap-2">
+                <input
+                  type="email"
+                  name="Email"
+                  class="form-control"
+                  id="emailInput"
+                  placeholder="Email address"
+                />
+                <button type="button" class="btn btn-outline-light">
+                  Subscribe
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+        <div class="d-flex justify-content-between border-top mt-4 pt-4">
+          <p>&copy; 2022 Company, inc. All rights reserved.</p>
+
+          <div class="d-flex">
+            <a
+              href="https://www.instagram.com/_feline_alysa/"
+              class="link-light"
+            >
+              <i class="bi bi-instagram"></i>
+            </a>
+            <a href="#" class="link-light ms-3">
+              <i class="bi bi-twitter"></i>
+            </a>
+            <a href="#" class="link-light ms-3">
+              <i class="bi bi-facebook"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
